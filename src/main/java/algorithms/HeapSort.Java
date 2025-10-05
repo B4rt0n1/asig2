@@ -1,7 +1,6 @@
 package algorithms;
 
 import metrics.PerformanceTracker;
-import java.util.Arrays;
 
 /**
  * In-place Heap Sort implementation with bottom-up heapify
@@ -17,7 +16,7 @@ import java.util.Arrays;
 public class HeapSort {
     
     private PerformanceTracker tracker;
-    
+
     public HeapSort() {
         this.tracker = new PerformanceTracker();
     }
@@ -171,7 +170,7 @@ public class HeapSort {
     public PerformanceTracker getPerformanceTracker() {
         return tracker;
     }
-    
+
     /**
      * Sorts array and returns performance metrics in one call
      * @param arr array to sort
@@ -181,7 +180,7 @@ public class HeapSort {
         sort(arr);
         return tracker;
     }
-    
+
     /**
      * Optimized version for nearly sorted arrays
      * Checks if array is already sorted before proceeding
