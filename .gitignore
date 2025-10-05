@@ -1,0 +1,18 @@
+# Ignore build output
+target/
+
+# IDE settings
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+*.settings/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS junk files
+.DS_Store
+Thumbs.db
